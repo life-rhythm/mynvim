@@ -71,6 +71,21 @@ return {
     end,
   },
   {
+    "akinsho/toggleterm.nvim",
+    event = "VeryLazy",
+    opts = {
+      size = 20,
+      open_mapping = "<C-t>",
+      shade_terminals = true,
+      shade_filetypes = {},
+      start_in_insert = true,
+      persist_size = true,
+      direction = "horizontal",
+      close_on_exit = true,
+      shell = vim.o.shell,
+    },
+  },
+  {
     "akinsho/bufferline.nvim",
     keys = {
       { "<Tab>", "<Cmd>BufferlineCycleNext<CR>", desc = "Next Buffer" },
