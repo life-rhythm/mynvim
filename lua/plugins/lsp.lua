@@ -16,6 +16,7 @@ return {
         "shfmt",
         "flake8",
         "rust-analyzer",
+        "ocaml-lsp",
       },
     },
   },
